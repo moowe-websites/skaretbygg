@@ -1,0 +1,287 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="nb-NO" lang="nb-NO" xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head">
+<!--**********************************************************************************-->
+<!-- DotNetNuke� - http://www.dotnetnuke.com                                          -->
+<!-- Copyright (c) 2002-2010                                                          -->
+<!-- by DotNetNuke Corporation                                                        -->
+<!--**********************************************************************************-->
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type"><meta content="text/javascript" http-equiv="Content-Script-Type"><meta content="text/css" http-equiv="Content-Style-Type"><meta id="MetaDescription" name="DESCRIPTION" content="Skaret Sag og Bygg fra Gol i Hallingdal driver med alt fra bygg, nybygg og restaurering sagbruk, møbelsnekring, gulvsliping m.m. "><meta id="MetaKeywords" name="KEYWORDS" content="Bygg, sagbruk, møbelsnekring, gulvsliping, Gol, Hallingdal,DotNetNuke,DNN"><meta id="MetaCopyright" name="COPYRIGHT" content="Copyright 2010 Skaret Sag &amp; Bygg  |  Tlf: +47 916 36 673  |  E-post: post@skaretbygg.no"><meta id="MetaGenerator" name="GENERATOR" content="DotNetNuke "><meta id="MetaAuthor" name="AUTHOR" content="Skaret Sag &amp; Bygg"><meta name="RESOURCE-TYPE" content="DOCUMENT"><meta name="DISTRIBUTION" content="GLOBAL"><meta id="MetaRobots" name="ROBOTS" content="INDEX, FOLLOW"><meta name="REVISIT-AFTER" content="1 DAYS"><meta name="RATING" content="GENERAL"><meta http-equiv="PAGE-ENTER" content="RevealTrans(Duration=0,Transition=1)"><style id="StylePlaceholder" type="text/css"></style><link id="APortals__default_" rel="stylesheet" type="text/css" href="Portals/_default/default.css"><link id="APortals_11_Skins_MoodsSkaretBygg_" rel="stylesheet" type="text/css" href="Portals/11/Skins/MoodsSkaretBygg/skin.css"><link id="APortals_11_Skins_MoodsSkaretBygg_index_1280_css" rel="stylesheet" type="text/css" href="Portals/11/Skins/MoodsSkaretBygg/index%201280.css"><link id="APortals_11_Containers_MoodsSkaretBygg_" rel="stylesheet" type="text/css" href="Portals/11/Containers/MoodsSkaretBygg/container.css"><link id="APortals_11_" rel="stylesheet" type="text/css" href="Portals/11/portal.css"><!--[if LT IE 7]><link id="IE6Minus" rel="stylesheet" type="text/css" href="/Portals/11/Skins/MoodsSkaretBygg/css/ie6skin.css" /><![endif]--><script type="text/javascript" src="http://moods.moodsonweb.no/thumbnailviewer2.js" defer="defer">
+    </script>
+</head><link rel="SHORTCUT ICON" href="Portals/11/favicon.ico"><script type="text/javascript" src="/Resources/Shared/Scripts/jquery/jquery.min.js"></script><title>
+	Byggtjenester
+</title>
+<body id="Body">
+    <form name="Form" method="post" action="/Bygg.aspx" id="Form" enctype="multipart/form-data">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJNzIwNzAyODk0D2QWBmYPFgIeBFRleHQFeTwhRE9DVFlQRSBodG1sIFBVQkxJQyAiLS8vVzNDLy9EVEQgWEhUTUwgMS4wIFRyYW5zaXRpb25hbC8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9UUi94aHRtbDEvRFREL3hodG1sMS10cmFuc2l0aW9uYWwuZHRkIj5kAgEPZBYOAgQPFgIeB1Zpc2libGVoZAIFDxYCHgdjb250ZW50BYIBU2thcmV0IFNhZyBvZyBCeWdnIGZyYSBHb2wgaSBIYWxsaW5nZGFsIGRyaXZlciBtZWQgYWx0IGZyYSBieWdnLCBueWJ5Z2cgb2cgcmVzdGF1cmVyaW5nIHNhZ2JydWssIG3DuGJlbHNuZWtyaW5nLCBndWx2c2xpcGluZyBtLm0uIGQCBg8WAh8CBUpCeWdnLCBzYWdicnVrLCBtw7hiZWxzbmVrcmluZywgZ3VsdnNsaXBpbmcsIEdvbCwgSGFsbGluZ2RhbCxEb3ROZXROdWtlLEROTmQCBw8WAh8CBVdDb3B5cmlnaHQgMjAxMCBTa2FyZXQgU2FnICYgQnlnZyAgfCAgVGxmOiArNDcgOTE2IDM2IDY3MyAgfCAgRS1wb3N0OiBwb3N0QHNrYXJldGJ5Z2cubm9kAggPFgIfAgULRG90TmV0TnVrZSBkAgkPFgIfAgURU2thcmV0IFNhZyAmIEJ5Z2dkAgwPFgIfAgUNSU5ERVgsIEZPTExPV2QCAg9kFgICAQ9kFgQCBA9kFgJmD2QWEgIBD2QWAmYPZBYCZg8WAh8BaBYCZg9kFgJmD2QWBgIDDxBkZBYAZAIPD2QWAmYPDxYGHghJbWFnZVVybAUUL2ltYWdlcy9jb2xsYXBzZS5naWYeDUFsdGVybmF0ZVRleHQFB01pbmltZXIeB1Rvb2xUaXAFB01pbmltZXJkZAIRD2QWAgIBD2QWAgIBD2QWEAIBDxBkZBYAZAIFDxBkZBYAZAIHDxBkZBYAZAILDxBkZBYAZAIPDxBkZBYAZAIVDxBkZBYAZAIZDxBkZBYBZmQCHQ8QZGQWAGQCAw9kFgZmDxYCHwFoZAIBDxAPFgIfAWhkDxYBZhYBEAUWTm9yc2ssIEJva23DpWwgKE5vcmdlKQUFbmItTk9nFgFmZAIDDxYCHwFoZAIFD2QWAmYPDxYEHwUFEVNrYXJldCBTYWcgJiBCeWdnHgtOYXZpZ2F0ZVVybAUlaHR0cHM6Ly9za2FyZXRieWdnLm5vL1N0YXJ0c2lkZW4uYXNweGRkAgkPFgIeBWNsYXNzBRRUb3BQYW5lIEROTkVtcHR5UGFuZWQCCw8WAh8HBRVMZWZ0UGFuZSBETk5FbXB0eVBhbmVkAg0PZBYEAgIPZBYKAgEPDxYCHwFoZGQCAw9kFgICAg8PZBYCHwcFD0ROTl9IVE1MQ29udGVudBYCAgEPZBYCAgIPFgIfAWhkAgUPZBYCZg8PFgIfAWhkZAIHD2QWAmYPDxYCHwFoZGQCCQ9kFgJmDw8WAh8BaGRkAgQPZBYKAgEPDxYCHwFoZGQCAw9kFgICAg8PZBYCHwcFIENyb3NzU2lsdmVybGlnaHRTbGlkZXNob3dDb250ZW50FgICAQ9kFgICAg9kFgJmD2QWAgICDxYCHgVhbGlnbgUEbGVmdBYCAgEPFgIfAAV7bmV3IFNsaWRlU2hvdy5Db250cm9sKG5ldyBTbGlkZVNob3cuWG1sQ29uZmlnUHJvdmlkZXIoew0KdXJsOiAiL1BvcnRhbHMvMTEvQ3Jvc3NfU2lsdmVybGlnaHRfU2xpZGVzaG93Q29uZmlnMjEwNy54bWwifSkpOw0KZAIFD2QWAmYPDxYCHwFoZGQCBw9kFgJmDw8WAh8BaGRkAgkPZBYCZg8PFgIfAWhkZAIPDxYCHwcFFlJpZ2h0UGFuZSBETk5FbXB0eVBhbmVkAhEPFgIfBwUXQm90dG9tUGFuZSBETk5FbXB0eVBhbmVkAhUPZBYCZg8PFgYeCENzc0NsYXNzBQZmb290ZXIfAAUwPHNwYW4gc3R5bGU9IndoaXRlLXNwYWNlOm5vd3JhcCI+TG9nZyBpbm48L3NwYW4+HgRfIVNCAgJkZAIKDxQrAAJkZGQYAQUeX19Db250cm9sc1JlcXVpcmVQb3N0QmFja0tleV9fFgEFFGRubiRkbm5OQVYkY3RsZG5uTkFWVFS8rjkQ23qCCFsUJcczzrK/nYg=">
+</div>
+
+
+<script src="js/dnncore.js" type="text/javascript"></script><script type="text/javascript" src="DesktopModules/CrossSilverlightSlideshow/js/Silverlight.js"></script>
+<script type="text/javascript" src="DesktopModules/CrossSilverlightSlideshow/js/Slideshow.js"></script>
+
+<script type="text/javascript">
+//<![CDATA[
+var __cultureInfo = '{"name":"nb-NO","numberFormat":{"CurrencyDecimalDigits":2,"CurrencyDecimalSeparator":",","IsReadOnly":false,"CurrencyGroupSizes":[3],"NumberGroupSizes":[3],"PercentGroupSizes":[3],"CurrencyGroupSeparator":" ","CurrencySymbol":"kr","NaNSymbol":"NaN","CurrencyNegativePattern":12,"NumberNegativePattern":1,"PercentPositivePattern":0,"PercentNegativePattern":0,"NegativeInfinitySymbol":"-INF","NegativeSign":"-","NumberDecimalDigits":2,"NumberDecimalSeparator":",","NumberGroupSeparator":" ","CurrencyPositivePattern":2,"PositiveInfinitySymbol":"INF","PositiveSign":"+","PercentDecimalDigits":2,"PercentDecimalSeparator":",","PercentGroupSeparator":" ","PercentSymbol":"%","PerMilleSymbol":"‰","NativeDigits":["0","1","2","3","4","5","6","7","8","9"],"DigitSubstitution":1},"dateTimeFormat":{"AMDesignator":"","Calendar":{"MinSupportedDateTime":"\/Date(-62135596800000)\/","MaxSupportedDateTime":"\/Date(253402297199999)\/","AlgorithmType":1,"CalendarType":1,"Eras":[1],"TwoDigitYearMax":2029,"IsReadOnly":false},"DateSeparator":".","FirstDayOfWeek":1,"CalendarWeekRule":2,"FullDateTimePattern":"d. MMMM yyyy HH:mm:ss","LongDatePattern":"d. MMMM yyyy","LongTimePattern":"HH:mm:ss","MonthDayPattern":"d. MMMM","PMDesignator":"","RFC1123Pattern":"ddd, dd MMM yyyy HH\u0027:\u0027mm\u0027:\u0027ss \u0027GMT\u0027","ShortDatePattern":"dd.MM.yyyy","ShortTimePattern":"HH:mm","SortableDateTimePattern":"yyyy\u0027-\u0027MM\u0027-\u0027dd\u0027T\u0027HH\u0027:\u0027mm\u0027:\u0027ss","TimeSeparator":":","UniversalSortableDateTimePattern":"yyyy\u0027-\u0027MM\u0027-\u0027dd HH\u0027:\u0027mm\u0027:\u0027ss\u0027Z\u0027","YearMonthPattern":"MMMM yyyy","AbbreviatedDayNames":["sø","ma","ti","on","to","fr","lø"],"ShortestDayNames":["sø","ma","ti","on","to","fr","lø"],"DayNames":["søndag","mandag","tirsdag","onsdag","torsdag","fredag","lørdag"],"AbbreviatedMonthNames":["jan","feb","mar","apr","mai","jun","jul","aug","sep","okt","nov","des",""],"MonthNames":["januar","februar","mars","april","mai","juni","juli","august","september","oktober","november","desember",""],"IsReadOnly":false,"NativeCalendarName":"gregoriansk kalender","AbbreviatedMonthGenitiveNames":["jan","feb","mar","apr","mai","jun","jul","aug","sep","okt","nov","des",""],"MonthGenitiveNames":["januar","februar","mars","april","mai","juni","juli","august","september","oktober","november","desember",""]}}';//]]>
+</script>
+
+<script src="ScriptResource.axd?d=9fnsDtqaizfwU0WbkJZ7JGZeK95E0zFkV6YFqI8aYBgKO-Z_4TpKlFZbt47p4aVYg_BoYsOBgOy_MtXzJKdRh8Zfoh5yCB9T03kVIU6bWKCdhFlKGXB0qAzDRDFrn4emaR3gqjX49eCpzv1D4ZFlZXzD0t81&amp;t=ffffffff9bc22534" type="text/javascript"></script>
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CA0B0334">
+</div>
+        
+        
+
+<div id="bgImage">
+</div>
+    <div id="s_wrap_main">
+		<div id="s_wrap_sub">
+	        <div class="template_style">
+	        <div class="cpanel_left">
+	            <div class="cpanel_right">
+	                <div id="dnn_ControlPanel">
+</div>
+	            </div>
+	        </div>
+	            <div class="top_space">
+	                <div class="lang_pad">
+	                    
+	                </div>
+	            </div>
+	            <div class="logo_top">
+	                <div class="logo_top_left">
+	                    <div class="logo_top_right">
+	                        <div class="logo_top_bg">
+	                        </div>
+	                    </div>
+	                </div>
+	                <div class="logo_left">
+	                    <div class="logo_right">
+	                        <div class="logo_pad">
+                                <div class="s_logo">
+                                    <a id="dnn_dnnLOGO_hypLogo" title="Skaret Sag &amp; Bygg" href="Startsiden.aspx.html"><img id="dnn_dnnLOGO_imgLogo" src="Portals/11/logo-skaretbygg.png" alt="Skaret Sag &amp; Bygg" style="border-width:0px;"></a>
+                                </div>
+                                
+                                <div><a title="Flotte hyttetomter til salg p� golsfjellet!" href="http://www.skaretbygg.no/Startsiden/Hyttetomter.aspx"><img alt="Flotte hyttetomter til salg p� golsfjellet!" style="border-bottom: 0px; position: absolute; border-left: 0px; margin-top: 135px; margin-left: 150px; border-top: 0px; border-right: 0px" src="http://www.skaretbygg.no/portals/11/button.png"></a></div>
+                                	                            
+								<div class="clear_float">
+								</div>
+	                        </div>
+	                    </div>
+	                </div>
+	            </div>
+	            <div class="menu_left">
+	                <div class="menu_right">
+	                    <div class="menu_bg">
+	                        
+	                        <div class="menu_style">
+	                            <div>
+	<ul class="" id="dnn_dnnNAV_ctldnnNAV">
+		<li id="dnn_dnnNAV_ctldnnNAVctr182"><a href="Startsiden.aspx.html"><span>Startsiden</span></a></li><li id="dnn_dnnNAV_ctldnnNAVctr184"><a href="Sagbruk.aspx.html"><span>Sagbruk</span></a></li><li id="dnn_dnnNAV_ctldnnNAVctr183"><a href="Bygg.aspx.html"><span>Bygg</span></a></li><li id="dnn_dnnNAV_ctldnnNAVctr897"><a href="StavogLaft.aspx.html"><span>Stav og Laft</span></a></li><li id="dnn_dnnNAV_ctldnnNAVctr896"><a href="Piperehabilitering.aspx.html"><span>Piperehabilitering</span></a></li><li id="dnn_dnnNAV_ctldnnNAVctr185"><a href="https://skaretbygg.no/Utem%c3%b8bler.aspx"><span>Utemøbler</span></a></li><li id="dnn_dnnNAV_ctldnnNAVctr186"><a href="Gulvsliping.aspx.html"><span>Gulvsliping</span></a></li><li id="dnn_dnnNAV_ctldnnNAVctr895"><a href="Bilder.aspx.html"><span>Bilder</span></a></li>
+	</ul>
+</div>
+	                        </div>
+	                        <div class="clear_float">
+	                        </div>
+	                    </div>
+	                </div>
+	            </div>
+	            
+	            <div class="center_bg">
+	                <div class="left_bg">
+	                    <div class="right_bg">
+	                        <div class="content_pad">
+	                            <div class="content_width">
+	                                <div id="dnn_TopPane" class="TopPane DNNEmptyPane"></div>
+	                                <table width="99%" border="0" cellspacing="0" cellpadding="0">
+	                                    <tr>
+	                                        <td id="dnn_LeftPane" valign="top" class="LeftPane DNNEmptyPane">
+	                                        </td>
+
+	                                        <td id="dnn_ContentPane" valign="top" class="ContentPane">
+	                                        <a name="520"></a>
+<div class="c_container c_head_grey">
+    <div class="head_title">
+        <div class="c_actions">
+			
+        </div>
+       
+        <div class="clear_float">
+        </div>
+    </div>
+    <div class="c_content">
+        <div id="dnn_ctr520_ContentPane" class="Normal c_contentpane">
+        <!-- Start_Module_520 --><div id="dnn_ctr520_ModuleContent" class="DNN_HTMLContent">
+	<div id="dnn_ctr520_HtmlModule_lblContent" class="Normal">
+		<table border="0" cellspacing="20" cellpadding="0" width="100%">
+    <tbody>
+        <tr>
+            <td>&#160;</td>
+            <td>
+            <h1><span style="font-family: Tahoma">Byggtjenester&#160;</span></h1>
+            </td>
+            <td>&#160;</td>
+            <td>&#160;</td>
+            <td>&#160;</td>
+        </tr>
+        <tr>
+            <td>&#160;</td>
+            <td style="width: 50%; vertical-align: top">
+            <p><span style="font-size: larger"><span style="font-family: Tahoma">Skaret Sag og Bygg har svennebrev innen tømrerfaget, samt 2 år på teknisk&#160;fagskole.Godkjent for ansvarsrett. Har også godkjent våtromssertifikat. Vi har over 15 års erfaring med byggtjenester og utfører blant annet:&#160; </span></span></p>
+            <ul>
+                <li><span style="font-size: larger"><span style="font-family: Tahoma">Nybygg</span> </span></li>
+                <li><span style="font-size: larger"><span style="font-family: Tahoma">Tilbygg </span></span></li>
+                <li><span style="font-size: larger"><span style="font-family: Tahoma">Restaurering </span></span></li>
+                <li><span style="font-size: larger"><span style="font-family: Tahoma">Takrehabilitering </span></span></li>
+                <li><span style="font-size: larger"><span style="font-family: Tahoma">Montering av porter </span></span></li>
+                <li><span style="font-size: larger"><span style="font-family: Tahoma">Forskaling av grunnmur </span></span></li>
+                <li><span style="font-size: larger"><span style="font-family: Tahoma">Utskifting av dører og vinduer </span></span></li>
+            </ul>
+            </td>
+            <td>&#160;</td>
+            <td style="width: 50%; vertical-align: top">
+            <h2>&#160;<br>
+            Vi gjør din drøm til virkelighet ...</h2>
+            <h3>Ring oss i dag for en uforpliktende prat.</h3>
+            </td>
+            <td>&#160;</td>
+        </tr>
+    </tbody>
+</table>
+	</div>
+
+</div><!-- End_Module_520 --></div>
+    </div>
+    <div class="c_footer">
+        
+        
+        
+    </div>
+</div>
+<a name="2107"></a>
+<div class="c_container c_head_grey">
+    <div class="head_title">
+        <div class="c_actions">
+			
+        </div>
+       
+        <div class="clear_float">
+        </div>
+    </div>
+    <div class="c_content">
+        <div id="dnn_ctr2107_ContentPane" class="Normal c_contentpane">
+        <!-- Start_Module_2107 --><div id="dnn_ctr2107_ModuleContent" class="CrossSilverlightSlideshowContent">
+	
+
+<div id="dnn_ctr2107_View_ctl00_divGallery" align="left">  
+    <script type="text/javascript">            
+      new SlideShow.Control(new SlideShow.XmlConfigProvider({
+url: "/Portals/11/Cross_Silverlight_SlideshowConfig2107.xml"}));
+   
+   </script>
+</div>
+
+
+
+
+</div><!-- End_Module_2107 --></div>
+    </div>
+    <div class="c_footer">
+        
+        
+        
+    </div>
+</div>
+</td>
+
+	                                        <td id="dnn_RightPane" valign="top" class="RightPane DNNEmptyPane">
+	                                        </td>
+
+	                                    </tr>
+	                                </table>
+	                                <div id="dnn_BottomPane" class="BottomPane DNNEmptyPane"></div>
+	                            </div>
+															
+	                        </div>
+	                    </div>
+	                </div>
+	            </div>
+	            
+	            <div class="bot_left_footer">
+	                <div class="bot_right_footer">
+	                    <div class="bot_footer">
+	                    <div style="margin-left: 0px; margin-top: 0px; float: left; width: 528px">
+                        <img style="margin-left: 40px; margin-top: 20px; float: left; border: 0;" alt="" src="Portals/11/SkaretBygg/bannerAnsvarsrett.png">
+                        <img style="margin-left: 20px; margin-top: 20px; float: left; border: 0;" alt="" src="Portals/11/SkaretBygg/bannerBvn.png">
+                    </div>
+                    <div style="margin-left: 20px; margin-top: 20px; float: left; width: 220px; font-size: 7pt;">
+                        SKARET SAG & BYGG er en familiebedrift som ble etablert 2001.<br><br>Vi har lang erfaring
+                        og god kompetanse innen byggtjenester, t&oslash;mring, stavlaft, snikkering, gulvsliping,
+                        piperehabilitering med mer.
+                    </div>
+                    <div style="margin-left: 40px; margin-top: 20px; float: left; width: 170px; color: #ffffff;
+                        font-size: 7pt;">
+                        <font style="font-size: 10pt; font-weight: bold">SKARET SAG & BYGG</font><br>
+                        <div style="padding-top: 5px;">
+                            Gr&oslash;nlia, 3550 GOL<br>
+                            Tlf +47 916 36 673<br>
+                            E-post <a style="font-size: 7pt;" href="mailto:post@skaretbygg.no" title="Send epost til post@skaretbygg.no">post@skaretbygg.no</a>
+                        </div>
+                    </div>
+	                    </div>
+	                </div>
+	            </div>
+	            
+	            <div class="bot_left">
+	                <div class="bot_right">
+	                    <div class="bot_bg">
+	                    </div>
+	                </div>
+	            </div>
+	            
+	            <div class="bot_pad">
+	                <div id="terms_style" class="footer">	                    
+	                </div>
+	                <div id="copy_style" class="footer">
+	                    <span id="dnn_dnnCOPYRIGHT_lblCopyright" class="footer">Copyright 2010 Skaret Sag & Bygg  |  Tlf: +47 916 36 673  |  E-post: post@skaretbygg.no</span>
+
+	                    |&nbsp;<a id="dnn_dnnLOGIN_cmdLogin" class="footer" href="javascript:__doPostBack('dnn$dnnLOGIN$cmdLogin','')"><span style="white-space:nowrap">Logg inn</span></a>
+	                    |&nbsp;<a class="footer" target="_blank" title="Moods On Web lager websider. Hva gj&oslash;r du?" href="http://www.moowe.no">Utviklet av MOOWE</a>
+	                </div>
+	                <div class="clear_float">
+	                </div>
+	            </div>
+	        </div>
+		</div>			
+    </div>
+    
+
+
+        <input name="ScrollTop" type="hidden" id="ScrollTop">
+        <input name="__dnnVariable" type="hidden" id="__dnnVariable">
+        
+    
+<script type="text/javascript" src="/Resources/Shared/scripts/initWidgets.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+Sys.Application.initialize();
+//]]>
+</script>
+</form>
+
+            
+                <script type="text/javascript">
+                var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+                document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+                </script>
+
+                <script type="text/javascript">
+                var pageTracker = _gat._getTracker("UA-20338147-2");
+                pageTracker._trackPageview();
+                </script>
+
+            
+            </body>
+</html>
